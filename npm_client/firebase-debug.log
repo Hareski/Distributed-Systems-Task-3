@@ -1,0 +1,25 @@
+[debug] [2018-12-12T11:04:16.754Z] ----------------------------------------------------------------------
+[debug] [2018-12-12T11:04:16.756Z] Command:       /usr/bin/node /usr/local/bin/firebase serve -p 8081
+[debug] [2018-12-12T11:04:16.756Z] CLI Version:   6.1.2
+[debug] [2018-12-12T11:04:16.756Z] Platform:      linux
+[debug] [2018-12-12T11:04:16.756Z] Node Version:  v8.10.0
+[debug] [2018-12-12T11:04:16.756Z] Time:          Wed Dec 12 2018 13:04:16 GMT+0200 (EET)
+[debug] [2018-12-12T11:04:16.756Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-12T11:04:16.764Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-12T11:04:16.764Z] > authorizing via signed-in user
+[debug] [2018-12-12T11:04:16.764Z] [iam] checking project internet-153115 for permissions ["firebase.projects.get"]
+[debug] [2018-12-12T11:04:16.767Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/internet-153115:testIamPermissions  
+
+[debug] [2018-12-12T11:04:17.696Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-12T11:04:17.699Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/internet-153115  
+ 
+[debug] [2018-12-12T11:04:18.596Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/areski/Documents/distributed-systems/3-week/src/npm_client'...
+[info] 
+[debug] [2018-12-12T11:04:18.601Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1022695760706/clients/_:getWebAppConfig  
+ 
+[debug] [2018-12-12T11:04:19.095Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:8081
